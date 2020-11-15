@@ -1,0 +1,7 @@
+@flavors.map do |flavor|
+  {
+    title: flavor.title,
+    description: flavor.description,
+    price: flavor.price
+  }
+end
